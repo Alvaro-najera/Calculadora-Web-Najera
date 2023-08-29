@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Web Najera</title>
+    <link rel="stylesheet", href="CSS/estilos.css">
+
+<body>
+   
+</head>
+
+<div class="header">
+    <h1>Practica 1 Calculadora Najera</h1>
+    <h2>Asignatura: Desarrolo de aplicaciones Web y Moviles </h2>
+</div>
+
+    <div>
+       
+        <label1>Ingresa un numero: </label1>
+        <div2>
+                <input type="number" class="entrada" id="num1" placeholder="Número 1">
+                <br>
+        </div2>
+        
+        <select id="opciones">
+            <option selected>Seleccionar una opción... </option> 
+            <option value = "1">Suma</option>
+            <option value = "2">Resta</option>
+            <option value = "3">Multiplicación</option>
+            <option value = "4">División</option>
+        </select>
+        <br>
+        <br>
+        <label2>Ingesa un numero: </label2>
+        <div3>
+            <input type="number" class="entrada" id="num2" placeholder="Número 2">
+            <br>
+        </div3>
+        <div4>
+            <button id="ejecutar" class="styled-button">EJECUTAR</button>
+            <br>
+            <br>
+        </div4>
+        <br>
+        <div5>
+            <label>Resultado:</label>
+            <input type="number" class="resultado" id="Salida" readonly>
+        </div5>
+    </div>
+
+<script src="jquery-3.7.0.min.js"></script>
+<script src="JS/acciones.js"></script>
+</body>
+</html>
